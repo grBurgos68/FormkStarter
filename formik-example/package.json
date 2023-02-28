@@ -2,6 +2,7 @@
   "name": "test-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://grburgos68.github.io/formik-example/",
   "dependencies": {
     "formik": "^2.2.9",
     "gh-pages": "^5.0.0",
@@ -10,6 +11,8 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "predeployed": "npm run build",
+    "deployed": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
